@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {Helmet} from 'react';
+import MyRouter from './MyRouter';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <>
+    <MyRouter/>
+    </>
   );
 }
 
