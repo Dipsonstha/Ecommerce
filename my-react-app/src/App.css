@@ -11,3 +11,8 @@
 .carousel-control-next span {
   box-shadow: 0 0 10px rgba(36, 36, 31, 0.5); /* Adjust the values as needed */
 }
+
+.card img{
+  object-fit:contain; 
+  height: 200px;
+}

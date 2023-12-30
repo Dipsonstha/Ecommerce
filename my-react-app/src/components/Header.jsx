@@ -14,8 +14,8 @@ const Header = () => {
                     <nav className="nav ms-auto">
                         <ul className="nav me-auto">
                             <li className="nav-item"><a href="#" className="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
-                            <li className="nav-item"><a href="#" className="nav-link link-body-emphasis px-2">Features</a></li>
-                            <li className="nav-item"><a href="#" className="nav-link link-body-emphasis px-2">Pricing</a></li>
+                            <li className="nav-item"><a href="./Features" className="nav-link link-body-emphasis px-2">Features</a></li>
+                            <li className="nav-item"><a href="./Product" className="nav-link link-body-emphasis px-2">Product</a></li>
                             <li className="nav-item"><a href="#" className="nav-link link-body-emphasis px-2">FAQs</a></li>
                             <li className="nav-item"><a href="#" className="nav-link link-body-emphasis px-2">About</a></li>
                         </ul>
