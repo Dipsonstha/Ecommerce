@@ -1,9 +1,20 @@
 .header{
-  background-color: hsl(36, 97%, 49%);
+  background-color: hsl(31, 100%, 47%);
 }
+.nav-link {
+  color: white !important;
+}
+.nav > .nav-item:hover{
+background-color: rgba(65, 64, 64, 0.5);
+border-radius: 23%;
 
+}
 .sidebar{
   background-color: aliceblue;
+}
+
+.logo{
+  height: 40px;
 }
 
 /* Add this to your CSS stylesheet or style block */
