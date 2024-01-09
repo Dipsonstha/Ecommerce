@@ -10,7 +10,7 @@ const SignIn = () => {
         <div className="login-container" id='container'>
         <div className="login">
             <div className="login-title"><h3>Welcome to Daraz! Please login.</h3>
-        <div className="login-other">New member? <a href="">Register</a> here.</div>
+        <div className="login-other">New member? <a href="register">Register</a> here.</div>
         </div>
         <form action="">
             <div className="mod-login">

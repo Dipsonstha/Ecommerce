@@ -7,7 +7,13 @@
     height: 100vh;
     background: rgb(241, 239, 239);
   }
-  
+  .login{
+    position: absolute;
+    top: 12rem;
+  }
+  .login .mod-login{
+    padding: 25px 50px 50px 25px;
+  }
   .mod-login {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -42,6 +48,7 @@
   }
   
   .mod-input {
+    position: relative;
     margin-bottom: 15px;
   }
   
@@ -68,6 +75,11 @@
   .login-btn{
     background-color: hsl(31, 100%, 47%);
 }
+  .signup-btn{
+    width: 300px;
+    background-color: hsl(31, 100%, 47%);
+}
+
 .mod-third-party-login-fb{
 background-color: hsl(220, 82%, 33%);
 }
@@ -76,8 +88,30 @@ background-color: hsl(220, 82%, 33%);
 }
 .mod-button{
     color: white;
-      border: none;
-      margin: 10px;
-    width: 200px;
+    border: none;
+    margin: 10px;
+    width: 250px;
     height: 39px;
   }
+  .mod-login-change-sms-type {
+    position: absolute;
+    right: 0;
+    color: #049cb9;
+    bottom: -12px;
+}
+.mod-third-party-signup-bd{
+  display: flex;
+}
+
+.mod-button-signup{
+  color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    margin: 10px;
+  width: 120px;
+  height: 40px;
+}
+span{
+  font-size: 12px;
+}
